@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<DTS:Executable xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:refId="Package"
+  DTS:CreationDate="10/7/2023 12:37:15 PM"
+  DTS:CreationName="Microsoft.Package"
+  DTS:CreatorComputerName="BIDEMO"
+  DTS:CreatorName="BIDEMO\tamizi"
+  DTS:DTSID="{F4F4C0C5-795C-4CE2-A786-D6EF2B3E2A75}"
+  DTS:ExecutableType="Microsoft.Package"
+  DTS:LastModifiedProductVersion="14.0.0800.90"
+  DTS:LocaleID="1033"
+  DTS:ObjectName="Package1"
+  DTS:PackageType="5"
+  DTS:VersionGUID="{C4F48943-8931-4FF1-8FD0-67CB14E741CD}">
+  <DTS:Property
+    DTS:Name="PackageFormatVersion">8</DTS:Property>
+  <DTS:Variables />
+  <DTS:Executables />
+</DTS:Executable>

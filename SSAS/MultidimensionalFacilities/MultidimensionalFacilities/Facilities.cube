@@ -1,0 +1,759 @@
+﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="03b278d2-57e9-47ab-9360-cf94cd295f17" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Facilities</ID>
+  <Name>Facilities</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+      <Value>
+        <dds xmlns="">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="8" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-10849" scrolltop="-5530" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="32120" y="16510" backcolor="16777215" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="1" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+            <font>
+              <ddsxmlobjectstreamwrapper binary="01000000900144420100065461686f6d61" />
+            </font>
+            <mouseicon>
+              <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+            </mouseicon>
+          </diagram>
+          <layoutmanager>
+            <ddsxmlobj />
+          </layoutmanager>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.3" tooltip="Order" left="6116" top="0" logicalid="1" controlid="1" masterid="0" hint1="0" hint2="0" width="3836" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000c0000fc0e000088130000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj />
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.3" tooltip="Returns" left="20" top="0" logicalid="2" controlid="2" masterid="0" hint1="0" hint2="0" width="3096" height="2725" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000c0000180c0000a50a0000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="FCT_Returns" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.3" tooltip="Customer" left="1835" top="3678" logicalid="3" controlid="3" masterid="0" hint1="0" hint2="0" width="3625" height="2302" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000c0000290e0000fe080000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="DIM_Customer" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.3" tooltip="Date" left="8597" top="6970" logicalid="4" controlid="4" masterid="0" hint1="0" hint2="0" width="6482" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000c00005219000088130000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="DIM_Date" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.3" tooltip="Product" left="3319" top="7062" logicalid="5" controlid="5" masterid="0" hint1="0" hint2="0" width="4048" height="3149" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000c0000d00f00004d0c0000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="DIM_Product" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.3" tooltip="Region" left="-1849" top="-3228" logicalid="6" controlid="6" masterid="0" hint1="0" hint2="0" width="3000" height="2302" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000c0000b80b0000fe080000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="DIM_Region" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.3" tooltip="Order" left="0" top="0" logicalid="7" controlid="7" masterid="0" hint1="0" hint2="0" width="3810" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000c0000e20e000088130000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="FCT_Order" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+        </dds>
+      </Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>-10849</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>-5530</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>-1849</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>-3228</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>100</Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Language>1065</Language>
+  <Dimensions>
+    <Dimension dwd:design-time-name="c16b3559-7eca-4288-ab5b-07f866d9cef8">
+      <ID>Customer</ID>
+      <Name>Customer</Name>
+      <Translations>
+        <Translation dwd:design-time-name="da715dbe-2789-49e6-944a-fb23cf718ef7">
+          <Language>1065</Language>
+          <Caption>مشتری</Caption>
+        </Translation>
+      </Translations>
+      <DimensionID>Customer</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="06af8f3b-4b3c-40f8-8992-186518a18fd4">
+          <AttributeID>ROWID</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="314da303-5b18-42f9-8023-4abedb3d3920">
+          <AttributeID>Customer Name</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="44b9ec14-ecfb-473f-b619-328e5ebbb9a7">
+          <AttributeID>Customer Segment</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="ba86dee4-5dd1-4bd4-a466-1820d138a2ec">
+      <ID>Date</ID>
+      <Name>Order Date</Name>
+      <Translations>
+        <Translation dwd:design-time-name="54ef3bf5-d4ae-4049-94b1-3296f969e251">
+          <Language>1065</Language>
+          <Caption>تاریخ سفارش</Caption>
+        </Translation>
+      </Translations>
+      <DimensionID>Date</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="c5e5b860-5b10-4f63-80a4-88906d386f97">
+          <AttributeID>Full Date</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="75c6a11a-9451-4080-b25d-7d2fbc32f7fb">
+          <AttributeID>Time Key Year Month</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="3f82f899-95be-4d14-be5e-369f39e31078">
+          <AttributeID>Time Key Year</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="14fe8001-494c-48e5-ae25-f5febf2fe2db">
+          <AttributeID>Time Month Native</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="1454a9f3-6351-4fc5-b2ae-c3fba0251acf">
+          <AttributeID>Time Day Native</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="0f28567c-8d28-416e-902b-8ce462434164">
+          <AttributeID>Time Month Name</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="b5fdda79-f6a7-4881-8383-60aea4ca9892">
+          <AttributeID>Time Title Year Month Day</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="f964ce3d-b14c-46fb-b7a8-c0aa490630b7">
+          <AttributeID>Season Name</AttributeID>
+        </Attribute>
+      </Attributes>
+      <Hierarchies>
+        <Hierarchy dwd:design-time-name="d6ab1996-099b-4c47-b3b7-3eedf7560650">
+          <HierarchyID>Hierarchy</HierarchyID>
+        </Hierarchy>
+      </Hierarchies>
+    </Dimension>
+    <Dimension dwd:design-time-name="a21a1698-06b1-4a42-b363-6a1e329fb2a5">
+      <ID>Order</ID>
+      <Name>Order</Name>
+      <Translations>
+        <Translation dwd:design-time-name="2f8c1379-ef8a-4ec6-b913-5b742511f11b">
+          <Language>1065</Language>
+          <Caption>سفارش</Caption>
+        </Translation>
+      </Translations>
+      <DimensionID>Order</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="8ee78238-0bba-4284-9b61-e551a50dae80">
+          <AttributeID>Row ID</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="41e2a2cc-e734-4eea-bae5-ce4041e67a36">
+      <ID>Product</ID>
+      <Name>Product</Name>
+      <Translations>
+        <Translation dwd:design-time-name="50c7cbe0-27d6-43e0-995f-3acee49fb487">
+          <Language>1065</Language>
+          <Caption>کالا</Caption>
+        </Translation>
+      </Translations>
+      <DimensionID>Product</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="bcd32850-838c-425a-bd44-52a2f92171c1">
+          <AttributeID>ROWID</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="c4c64b35-25d1-4ea2-b80e-7e73d3913fad">
+          <AttributeID>Product Category</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="fab0d2c6-2c1e-4775-8c9f-e731a0a73993">
+          <AttributeID>Product Sub- Category</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="d6d507d6-c0a2-4006-98a6-7f0dc97cc914">
+          <AttributeID>Product Name</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="6fb5bc5f-f454-4db8-8738-d3142a76d5d3">
+          <AttributeID>Product Container</AttributeID>
+        </Attribute>
+      </Attributes>
+      <Hierarchies>
+        <Hierarchy dwd:design-time-name="322afaa2-1478-41ea-b734-7aef933fd0ff">
+          <HierarchyID>Hierarchy</HierarchyID>
+        </Hierarchy>
+      </Hierarchies>
+    </Dimension>
+    <Dimension dwd:design-time-name="35efc4ad-913d-4963-93f4-99a6e52a99a5">
+      <ID>Region</ID>
+      <Name>Region</Name>
+      <Translations>
+        <Translation dwd:design-time-name="c71584da-28c8-49b8-980c-e087786c5141">
+          <Language>1065</Language>
+          <Caption>منطقه</Caption>
+        </Translation>
+      </Translations>
+      <DimensionID>Region</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="29bc9f7d-9bf7-4bd7-af5e-18f9d253dd72">
+          <AttributeID>ROWID</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="5c0111fa-d5ce-459e-9ee6-9577a0c7829a">
+          <AttributeID>Region</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="f733433e-bf89-492d-b36a-b65e8e1364ef">
+          <AttributeID>Province</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="e4d7f552-3882-4653-bb0d-b6f85939ebf2">
+      <ID>Date 1</ID>
+      <Name>Ship Date</Name>
+      <Translations>
+        <Translation dwd:design-time-name="a1f7f312-c75b-42a9-a2f3-d26970edad41">
+          <Language>1065</Language>
+          <Caption>تاریخ ارسال</Caption>
+        </Translation>
+      </Translations>
+      <DimensionID>Date</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="84b017e1-fd62-45b9-b130-5a4d12273018">
+          <AttributeID>Full Date</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="7f64baf3-273a-4a41-994d-e5a413d735c3">
+          <AttributeID>Time Key Year Month</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="86429e3f-07f1-4504-b126-0478ef1dfd8c">
+          <AttributeID>Time Key Year</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="59ff7d95-1ef9-49da-8f20-f7ba2853cf0e">
+          <AttributeID>Time Month Native</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="a2bab33e-2519-4b83-bb6e-905f35c8acd0">
+          <AttributeID>Time Day Native</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="77151715-2476-453b-a91a-8a244443a6b1">
+          <AttributeID>Time Month Name</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="8d8fed1a-f5f1-4238-ba83-43e21e6ef8f7">
+          <AttributeID>Time Title Year Month Day</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="88b3e814-3a00-4193-8de1-76bb78b9950b">
+          <AttributeID>Season Name</AttributeID>
+        </Attribute>
+      </Attributes>
+      <Hierarchies>
+        <Hierarchy dwd:design-time-name="ab46c759-0387-4a67-ae00-8a83e910ad24">
+          <HierarchyID>Hierarchy</HierarchyID>
+        </Hierarchy>
+      </Hierarchies>
+    </Dimension>
+  </Dimensions>
+  <MeasureGroups>
+    <MeasureGroup dwd:design-time-name="dbc43da8-3027-4241-9c8a-6223f48907d4">
+      <ID>Returns</ID>
+      <Name>Returns</Name>
+      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+      <State>Unprocessed</State>
+      <Translations>
+        <Translation dwd:design-time-name="6623a2c6-a3e3-4ad9-88ab-052d749d358d">
+          <Language>1065</Language>
+          <Caption>فروش - برگشتی</Caption>
+        </Translation>
+      </Translations>
+      <Measures>
+        <Measure dwd:design-time-name="e9c3f3d8-7ee1-43ef-a611-fab39470345b">
+          <ID>Return Amount</ID>
+          <Name>Return Amount</Name>
+          <Source dwd:design-time-name="2ea9e455-dfb2-45dc-bd28-7e7e98ca9d74">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="603102ec-2bfb-427f-b62b-2809b7d78ea5">
+              <TableID>FCT_Returns</TableID>
+              <ColumnID>Return_x0020_Amount</ColumnID>
+            </Source>
+          </Source>
+          <Translations>
+            <Translation dwd:design-time-name="06463f78-858a-4c5d-8010-54f2d25e3e03">
+              <Language>1065</Language>
+              <Caption>مبلغ برگشتی</Caption>
+            </Translation>
+          </Translations>
+        </Measure>
+      </Measures>
+      <StorageMode>Molap</StorageMode>
+      <ProcessingMode>Regular</ProcessingMode>
+      <Dimensions>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="9d5de28e-66e5-40a4-b705-e5c6c0868a3a">
+          <CubeDimensionID>Order</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="18b1f445-b8b6-4eaa-a39c-02c87a352d13">
+              <AttributeID>Row ID</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="da28b35c-df6d-4f9b-8732-c2604fb1d325">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="887d9354-cb08-40ea-967a-64bba5195af7">
+                    <TableID>FCT_Returns</TableID>
+                    <ColumnID>Order_RowId</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+      </Dimensions>
+      <Partitions />
+    </MeasureGroup>
+    <MeasureGroup dwd:design-time-name="ad107e86-838f-445b-810e-883c91718097">
+      <ID>Order</ID>
+      <Name>Order</Name>
+      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+      <State>Unprocessed</State>
+      <Translations>
+        <Translation dwd:design-time-name="f98163eb-9bbf-4092-b13e-847c178292e1">
+          <Language>1065</Language>
+          <Caption>فروش - فروش</Caption>
+        </Translation>
+      </Translations>
+      <Measures>
+        <Measure dwd:design-time-name="b10bda14-8087-49e7-a797-1605e11d2c73">
+          <ID>Sales</ID>
+          <Name>Sales</Name>
+          <Source dwd:design-time-name="80f77cae-594a-46cf-a23e-c76590960507">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="2cbc9cd0-8264-4195-9c54-268535543dbe">
+              <TableID>FCT_Order</TableID>
+              <ColumnID>Sales</ColumnID>
+            </Source>
+          </Source>
+          <Translations>
+            <Translation dwd:design-time-name="d863c8d2-8667-4a71-ab5c-d0964721f763">
+              <Language>1065</Language>
+              <Caption>مبلغ فروش</Caption>
+            </Translation>
+          </Translations>
+        </Measure>
+        <Measure dwd:design-time-name="7089240e-1f74-4d78-90a2-cc9d6aa78213">
+          <ID>Profit</ID>
+          <Name>Profit</Name>
+          <Source dwd:design-time-name="ed55cab5-f6a6-48cf-91bf-719be1c02d79">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="7631822a-4f36-4e35-9fb3-2822ac844432">
+              <TableID>FCT_Order</TableID>
+              <ColumnID>Profit</ColumnID>
+            </Source>
+          </Source>
+          <Translations>
+            <Translation dwd:design-time-name="d0e4eff7-54bd-43df-b89c-9eb38a7bdc73">
+              <Language>1065</Language>
+              <Caption>سود کل</Caption>
+            </Translation>
+          </Translations>
+        </Measure>
+        <Measure dwd:design-time-name="76c4d8c5-85ea-48c4-b2f4-ea07a2a4f4c7">
+          <ID>Shipping Cost</ID>
+          <Name>Shipping Cost</Name>
+          <Source dwd:design-time-name="cc8be766-0420-450d-a49d-0d03ad86a394">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="fa675db1-c1f2-4e4a-bd67-100967d78cc3">
+              <TableID>FCT_Order</TableID>
+              <ColumnID>Shipping_x0020_Cost</ColumnID>
+            </Source>
+          </Source>
+          <Translations>
+            <Translation dwd:design-time-name="d6e6cef4-b570-4623-b8d2-e6e05d464d17">
+              <Language>1065</Language>
+              <Caption>هزینه حمل</Caption>
+            </Translation>
+          </Translations>
+        </Measure>
+        <Measure dwd:design-time-name="fd91030a-47d8-4e83-89cc-2f02b38a77c0">
+          <ID>Order Count</ID>
+          <Name>Order Count</Name>
+          <AggregateFunction>Count</AggregateFunction>
+          <Source dwd:design-time-name="092bbba2-1c3c-4480-bebe-e0dea73283f4">
+            <DataType>Integer</DataType>
+            <DataSize>4</DataSize>
+            <Source xsi:type="RowBinding" dwd:design-time-name="84df6d54-8dc7-43dd-91f5-66b2e8e794c2">
+              <TableID>FCT_Order</TableID>
+            </Source>
+          </Source>
+          <Translations>
+            <Translation dwd:design-time-name="f18f3620-89e5-42e0-a572-454ddd46de1d">
+              <Language>1065</Language>
+              <Caption>تعداد سفارش</Caption>
+            </Translation>
+          </Translations>
+        </Measure>
+      </Measures>
+      <StorageMode>Molap</StorageMode>
+      <ProcessingMode>Regular</ProcessingMode>
+      <Dimensions>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="989e5a66-85b8-42b5-b2b4-d68300fa4a41">
+          <CubeDimensionID>Region</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="e3cbd9ea-536d-4945-ab49-baa6bb46ea0c">
+              <AttributeID>ROWID</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="8eeaa0dd-bec7-4d5c-98e5-d225ea708a25">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="722d4dd6-2709-4702-ab24-ec4596ac62b5">
+                    <TableID>FCT_Order</TableID>
+                    <ColumnID>RegionID</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="8dc3f1e8-ca2a-4096-ab20-4a4a48a3072b">
+          <CubeDimensionID>Product</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="4fd4869e-2ec7-450f-bd11-2fa4472ee438">
+              <AttributeID>ROWID</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="aa164b35-0a6d-4a8c-9a33-b4a304e6911a">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="4401cc90-1ed4-4c04-89d7-739522864027">
+                    <TableID>FCT_Order</TableID>
+                    <ColumnID>ProductID</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="ed4ddc8d-ff1a-4c33-a224-a463981a67f4">
+          <CubeDimensionID>Date</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="ba74f7fe-e3a0-4d81-8e63-2e2acdb53d33">
+              <AttributeID>Full Date</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="214dc744-4817-4faa-93d1-86463ca49fd8">
+                  <DataType>Date</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="4dfbff5f-b52b-4fc2-a63e-31eb2784df16">
+                    <TableID>FCT_Order</TableID>
+                    <ColumnID>Order_x0020_Date</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="724c6855-6560-4906-8aac-4fe7b49e994b">
+          <CubeDimensionID>Date 1</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="9d478d52-a6a6-4739-ba0d-2d8cc34eb16d">
+              <AttributeID>Full Date</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="c174d3c6-68e9-493a-9575-1343baa5e17c">
+                  <DataType>Date</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="28b1224c-3a85-4f60-af6f-b32e3ed94d50">
+                    <TableID>FCT_Order</TableID>
+                    <ColumnID>Ship_x0020_Date</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="80d8376f-d03a-4e89-8d7c-b601cd34ab90">
+          <CubeDimensionID>Customer</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="69fddada-a835-4006-9c1d-059ae6a87a5d">
+              <AttributeID>ROWID</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="0f1ce9bd-bd83-4f58-a568-c1e6c02768af">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="22938dbc-6fe2-4092-a345-a265a9006fae">
+                    <TableID>FCT_Order</TableID>
+                    <ColumnID>CustomerID</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+      </Dimensions>
+      <Partitions />
+    </MeasureGroup>
+    <MeasureGroup dwd:design-time-name="713244f4-8ca5-43b8-8b8d-6b089bb09cee">
+      <ID>Order 1</ID>
+      <Name>Order 1</Name>
+      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+      <State>Unprocessed</State>
+      <Translations>
+        <Translation dwd:design-time-name="0134cb81-70a9-41fa-9362-34691253f1d4">
+          <Language>1065</Language>
+          <Caption>فروش - فروش</Caption>
+        </Translation>
+      </Translations>
+      <Measures>
+        <Measure dwd:design-time-name="d688006e-a667-421d-bcb5-ca43d7c3bd36">
+          <ID>Customer ID Distinct Count</ID>
+          <Name>Customer ID Distinct Count</Name>
+          <AggregateFunction>DistinctCount</AggregateFunction>
+          <DataType>Integer</DataType>
+          <Source dwd:design-time-name="c7eaf851-d301-4620-9b6f-c84d1b7e4e79">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="b622f82f-5315-4906-9507-8e44b8fe7466">
+              <TableID>FCT_Order</TableID>
+              <ColumnID>CustomerID</ColumnID>
+            </Source>
+          </Source>
+          <Translations>
+            <Translation dwd:design-time-name="4cf5844f-07c6-4456-970e-0db94a34ab5e">
+              <Language>1065</Language>
+              <Caption>تعداد مشتریان</Caption>
+            </Translation>
+          </Translations>
+        </Measure>
+      </Measures>
+      <StorageMode>Molap</StorageMode>
+      <ProcessingMode>Regular</ProcessingMode>
+      <Dimensions>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="54372ac2-2ec4-47e9-945c-51aeea431a6e">
+          <CubeDimensionID>Region</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="6abe4b8c-5e66-4191-ad0d-0b029f1f1f36">
+              <AttributeID>ROWID</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="c1da351d-dc72-45a3-8fc9-de567704ac69">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="d70f49d7-4709-421e-8625-a0d04cd96dc0">
+                    <TableID>FCT_Order</TableID>
+                    <ColumnID>RegionID</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="37baedd9-c4d0-49fa-8398-9ff0f9a878ae">
+          <CubeDimensionID>Product</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="e6deef03-1835-4c84-989e-df115da20078">
+              <AttributeID>ROWID</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="3bf08456-a4ea-4482-ab9e-dfb0de31dde7">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="3082aa61-4de6-4e82-a377-d96530d93f30">
+                    <TableID>FCT_Order</TableID>
+                    <ColumnID>ProductID</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="bf9a302b-904d-41e7-8103-e993bd40d17d">
+          <CubeDimensionID>Date</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="d2e32375-2dc6-4461-b99d-aea28fdd14ef">
+              <AttributeID>Full Date</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="227855ec-29ca-4e67-9749-913cf1ebdf48">
+                  <DataType>Date</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="527a498d-51b5-4273-9014-d30d61c6df8b">
+                    <TableID>FCT_Order</TableID>
+                    <ColumnID>Order_x0020_Date</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="1fe84ba2-1eec-4bd8-92ce-188dcfb58726">
+          <CubeDimensionID>Date 1</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="5db8caf7-a74b-4426-aff8-f52de42bf455">
+              <AttributeID>Full Date</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="58534c85-2fb5-4f03-b49d-18e23114df99">
+                  <DataType>Date</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="da670bd5-0097-4757-b737-cf22f3b9118c">
+                    <TableID>FCT_Order</TableID>
+                    <ColumnID>Ship_x0020_Date</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="a1441f4e-f4fe-4457-b8c3-01e08edd401e">
+          <CubeDimensionID>Customer</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="4008b796-96c5-41a5-a4a5-5daa5a752b3c">
+              <AttributeID>ROWID</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="bf419b1b-c709-4634-9571-eb56534e8d3f">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="952c5a17-d027-452c-82b4-9cbeb50da99a">
+                    <TableID>FCT_Order</TableID>
+                    <ColumnID>CustomerID</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+      </Dimensions>
+      <Partitions />
+    </MeasureGroup>
+  </MeasureGroups>
+  <Source dwd:design-time-name="742d2c92-93d6-4163-affb-9add12970dfa">
+    <DataSourceViewID>Facilities</DataSourceViewID>
+  </Source>
+  <MdxScripts>
+    <MdxScript dwd:design-time-name="3ca26cc9-754a-4c77-ac5c-ade5bb631278">
+      <ID>MdxScript</ID>
+      <Name>MdxScript</Name>
+      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <Commands>
+        <Command>
+          <Text>/*
+The CALCULATE command controls the aggregation of leaf cells in the cube.
+If the CALCULATE command is deleted or modified, the data within the cube is affected.
+You should edit this command only if you manually specify how the cube is aggregated.
+*/
+CALCULATE; 
+CREATE MEMBER CURRENTCUBE.[Measures].[ORDER - BARGASHTI B FOROUSH]
+ AS SUM([Measures].[Return Amount])
+/ SUM([Measures].[Sales]), 
+FORMAT_STRING = "Percent", 
+VISIBLE = 1 ,  ASSOCIATED_MEASURE_GROUP = 'Order'  ; 
+CREATE MEMBER CURRENTCUBE.[Measures].[Order Saraneh sodr]
+ AS [Measures].[Profit]
+/ SUM([Measures].[Customer ID Distinct Count]), 
+VISIBLE = 1 ,  ASSOCIATED_MEASURE_GROUP = 'Order'  ; 
+CREATE MEMBER CURRENTCUBE.[Measures].[ORDER - Saraneh ship cost]
+ AS SUM([Measures].[Shipping Cost])
+/ SUM([Measures].[Customer ID Distinct Count]), 
+VISIBLE = 1 ,  ASSOCIATED_MEASURE_GROUP = 'Order'  ; </Text>
+        </Command>
+      </Commands>
+      <CalculationProperties>
+        <CalculationProperty dwd:design-time-name="5571dc65-5aa9-4fdb-9bd6-3413ea92bc38">
+          <CalculationReference>[Measures].[PUR ORDER - Saraneh ship cost]</CalculationReference>
+          <CalculationType>Member</CalculationType>
+          <Translations>
+            <Translation dwd:design-time-name="3adc544c-dc83-45f4-a61a-4a4732e106d5">
+              <Language>1065</Language>
+              <Caption>سرانه ی هزینه ی حمل</Caption>
+            </Translation>
+          </Translations>
+        </CalculationProperty>
+        <CalculationProperty dwd:design-time-name="b2d7b2f5-7735-400a-86b5-22ab3e829969">
+          <CalculationReference>[Measures].[ORDER - Saraneh ship cost]</CalculationReference>
+          <CalculationType>Member</CalculationType>
+          <Translations>
+            <Translation dwd:design-time-name="2e988643-4b4e-4b6d-b675-449817e3495d">
+              <Language>1065</Language>
+              <Caption>سرانه ی هزینه ی حمل</Caption>
+            </Translation>
+          </Translations>
+        </CalculationProperty>
+        <CalculationProperty dwd:design-time-name="6dca5167-ffcd-4d15-91ab-6bc632d25fbc">
+          <CalculationReference>[Measures].[Order Saraneh sodr]</CalculationReference>
+          <CalculationType>Member</CalculationType>
+          <Translations>
+            <Translation dwd:design-time-name="1e6332a9-9b15-4920-8e3e-da8d01a2c199">
+              <Language>1065</Language>
+              <Caption>سرانه ی سود</Caption>
+            </Translation>
+          </Translations>
+        </CalculationProperty>
+        <CalculationProperty dwd:design-time-name="a944d4c9-7ecc-49e2-8672-36b4b948d858">
+          <CalculationReference>[Measures].[ORDER - BARGASHTI B FOROUSH]</CalculationReference>
+          <CalculationType>Member</CalculationType>
+          <Translations>
+            <Translation dwd:design-time-name="7d1295d4-3dd0-4656-bb4d-047461a024c1">
+              <Language>1065</Language>
+              <Caption>نسبت برگشتی به فروش</Caption>
+            </Translation>
+          </Translations>
+        </CalculationProperty>
+      </CalculationProperties>
+    </MdxScript>
+  </MdxScripts>
+</Cube>
